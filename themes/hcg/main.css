@@ -91,6 +91,23 @@ ul.nav li.last {
 	height: 393px;
 	background: transparent url(images/photo-hcg.jpg) 0px 0px no-repeat;
 }
+div.order_item_arrow {
+	position: relative;
+	left: 30px;
+	width: 580px;
+	height: 155px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: transparent url(images/order-item_bg.png) 0px 0px no-repeat;
+}
+div.order_item_contents {
+	position: relative;
+	left: 80px;
+	top: 17px;
+	background: #ccc;
+	width: 435px;
+	height: 118px;
+}
 .top_bottom_pad {
 	padding: 10px 0 0 0;
 }
