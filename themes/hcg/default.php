@@ -25,7 +25,6 @@
 
   			<ul class="nav">
   			  <li><a href="<?php echo DIR_REL?>/" id="btn-home"><img src="<?=$this->getThemePath()?>/images/transparent.gif" /></a></li>
-  				<li><a href="<?php echo DIR_REL?>/index.php/blog" id="btn-blog"><img src="<?=$this->getThemePath()?>/images/transparent.gif" /></a></li>
   				<li><a href="<?php echo DIR_REL?>/index.php/faq" id="btn-faq"><img src="<?=$this->getThemePath()?>/images/transparent.gif" /></a></li>
   				<li><a href="<?php echo DIR_REL?>/index.php/contact_us" id="btn-contact_us"><img src="<?=$this->getThemePath()?>/images/transparent.gif" /></a></li>
   				<li><a href="<?php echo DIR_REL?>/index.php/order_now" id="btn-order_now"><img src="<?=$this->getThemePath()?>/images/transparent.gif" /></a></li>
