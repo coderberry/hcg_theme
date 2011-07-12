@@ -103,10 +103,56 @@ div.order_item_arrow {
 div.order_item_contents {
 	position: relative;
 	left: 80px;
-	top: 17px;
-	background: #ccc;
+	top: 7px;
 	width: 435px;
 	height: 118px;
+}
+div.order_item_contents .img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+div.order_item_contents .title {
+	position: absolute;
+	left: 140px;
+	font-weight: bold;
+	font-size: 1.6em;
+	color: #1d498c;
+}
+div.order_item_contents .description {
+	position: absolute;
+	top: 30px;
+	left: 145px;
+	width: 290px;
+	height: 55px;
+	overflow: hidden;
+}
+div.order_item_contents .price {
+	position: absolute;
+	top: 91px;
+	left: 135px;
+	width: 80px;
+	height: 25px;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	text-align: center;
+}
+div.order_item_contents .price span.old {
+	text-decoration: line-through;
+	font-style: italic;
+	color: #666;
+}
+div.order_item_contents .price span.new {
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #990000;
+}
+div.order_item_contents .button {
+	position: absolute;
+	top: 93px;
+	left: 220px;
+	width: 218px;
+	height: 45px;
 }
 .top_bottom_pad {
 	padding: 10px 0 0 0;
