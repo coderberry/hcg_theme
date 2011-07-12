@@ -1,0 +1,106 @@
+﻿body {
+	background: #fff url(images/bg.png) top left repeat-x;
+}
+#nav_container {
+	padding-top: 25px;
+	position: relative;
+}
+ul.nav {
+	height: 59px;
+	width: 100%;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	background: #fff url(images/menu-bg.png) top left repeat-x;
+	border-left: 1px solid #babcbe;
+	border-right: 1px solid #babcbe;
+}
+ul.nav li a {
+	float: left;
+	display: block;
+	height: 59px;
+	text-indent: -1999px
+	overflow: hidden;
+}
+ul.nav li a#btn-home {
+	margin-left: 15px;
+	width: 99px;
+	background: transparent url(images/menu-home.png) 0px 0px no-repeat;
+}
+ul.nav li a#btn-blog {
+	width: 84px;
+	background: transparent url(images/menu-blog.png) 0px 0px no-repeat;
+}
+ul.nav li a#btn-faq {
+	width: 71px;
+	background: transparent url(images/menu-faq.png) 0px 0px no-repeat;
+}
+ul.nav li a#btn-contact_us {
+	width: 132px;
+	background: transparent url(images/menu-contact_us.png) 0px 0px no-repeat;
+}
+ul.nav li a#btn-order_now {
+	width: 119px;
+	background: transparent url(images/menu-order_now.png) 0px 0px no-repeat;
+}
+ul.nav li a:hover {
+	background-position: 0 -59px !important;
+}
+ul.nav li.last {
+	text-align: right;
+}
+#nav-ribbon {
+	position: absolute;
+	background: transparent url(images/menu-ribbon.png) top left no-repeat;
+	width: 100px;
+	height: 53px;
+	z-index: 10px;
+	top: 8px;
+	margin-left: 872px;
+}
+.box {
+	background-color: #fff;
+	border: 1px solid #babcbe;
+}
+.splash {
+	background-color: #fff;
+	border-right: 1px solid #babcbe;
+	border-left: 1px solid #babcbe;
+	border-bottom: 1px solid #babcbe;
+}
+#splash-label {
+	position: relative;
+	background: transparent url(images/splash-label.png) 0px 0px no-repeat;
+	display: block;
+	width: 372px;
+	height: 86px;
+	left: 30px;
+	top: 15px;
+}
+#splash-arrow {
+	position: relative;
+	left: 30px;
+}
+#splash-order_now {
+	position: relative;
+	top: 6px;
+	left: 120px;
+}
+#photo-hcg {
+	width: 340px;
+	height: 393px;
+	background: transparent url(images/photo-hcg.jpg) 0px 0px no-repeat;
+}
+.top_bottom_pad {
+	padding: 10px 0 0 0;
+}
+.twenty_pad {
+	padding: 20px;
+}
+dl.faq dt {
+	font-size: 1.4em;
+	color: #3a6b9b;
+}
+dl.faq dd {
+	padding: 5px 0 15px 0;
+}

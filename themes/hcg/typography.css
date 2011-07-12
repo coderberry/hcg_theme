@@ -1,0 +1,25 @@
+
+p {
+	/* customize_p */ margin-bottom:1.75em; /* customize_p */ 
+	}
+
+a {
+/* customize_link */ 	text-decoration:none; /* customize_link */ 
+	color:#B4C835;
+	}
+a:hover {
+	text-decoration:none;
+/* customize_link_hover */ 	color:#6CC7DC; /* customize_link_hover */ 
+	}
+#header h1 {
+	font-size:2.5em;
+	font-weight:normal;
+	cursor:default;
+	position:relative; top:50px; left:30px;
+	letter-spacing:1px;
+/* customize_h1_header_color */ 	color:#aaaaaa; /* customize_h1_header_color */ 
+	font-style:italic;
+	}
+#header h1 a{
+color:#aaaaaa;
+}
