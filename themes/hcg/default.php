@@ -41,6 +41,13 @@
     	<?php $am = new Area('Main');
 						$am->display($c); ?>
   	</div>
+  	<div class="span-24">
+  	  <?php if($c->isEditMode()) { ?>
+    	<div style="margin-top:50px; margin-bottom:50px;"></div>
+    	<?php };?>
+    	<?php $am = new Area('Below Splash');
+						$am->display($c); ?>
+		</div>
 </div>
 
 <?php  require(DIR_FILES_ELEMENTS_CORE . '/footer_required.php'); ?>
