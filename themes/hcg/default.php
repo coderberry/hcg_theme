@@ -52,5 +52,6 @@
 
 <?php  require(DIR_FILES_ELEMENTS_CORE . '/footer_required.php'); ?>
 
+<br/><br/><br/>&nbsp;
 </body>
 </html>
