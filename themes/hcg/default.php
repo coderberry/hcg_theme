@@ -24,11 +24,12 @@
   		<div id="nav_container">
 
   			<ul class="nav">
-          <?php 
-            $a = new Area('Header Nav');
-            $a->display($c);
-          ?>
-         		<li class="last">&nbsp;</li>
+  			  <li><a href="<?php echo DIR_REL?>/" id="btn-home"><img src="images/transparent.gif" /></a></li>
+  				<li><a href="<?php echo DIR_REL?>/blog" id="btn-blog"><img src="images/transparent.gif" /></a></li>
+  				<li><a href="<?php echo DIR_REL?>/faq" id="btn-faq"><img src="images/transparent.gif" /></a></li>
+  				<li><a href="<?php echo DIR_REL?>/contact_us" id="btn-contact_us"><img src="images/transparent.gif" /></a></li>
+  				<li><a href="<?php echo DIR_REL?>/order_now" id="btn-order_now"><img src="images/transparent.gif" /></a></li>
+          <li class="last">&nbsp;</li>
   			</ul>
   			<div id="nav-ribbon"></div>
 	  	</div>
